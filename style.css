@@ -1,0 +1,62 @@
+body {
+    font-family: 'WindSong', cursive;
+    background-color: rgb(245, 202, 209);
+    font-size: large;
+
+}
+.header_div img {
+    width: 100px;
+    height: 100px;
+}
+.header_div {
+    color: rgb(235, 6, 44);
+    background-color: white;
+}
+#camera, #result{
+    border: black solid 5px; 
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 25px grey;
+}
+.main_div {
+    background-color: rgb(224, 163, 173);
+    border: 3px solid white;
+    box-shadow: 5px 5px 18px white;
+    padding: 10px;
+    margin-top: 15px;
+}
+.main_div label{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 5px 5px 18px white;
+    font-weight: bold;
+}
+.main_div button{
+    width: 300px;
+    box-shadow: 5px 5px 18px lightblue;
+    font-size: 20;
+    border: 2px solid;
+}
+
+.footer_div img {
+    width: 80px;
+}
+.footer_div h4 {
+    background-color: white;
+    box-shadow:5px 5px 18px teal;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: brown;
+}
+#copyright_footer {
+    width: 100%;
+    background-color: rgb(63, 5, 5);
+    color: white;
+    bottom: 0;
+    position: fixed;
+    line-height: 3;
+}
+#captured_image {
+    height: 250px;
+}
